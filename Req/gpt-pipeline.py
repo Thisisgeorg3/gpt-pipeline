@@ -27,7 +27,7 @@ def fetch_data_from_api(forta_api_url: str, forta_api_key: str, query: str) -> p
 @app.get("/analyze",) 
 def analyze_data(
     forta_api_url: str = Query("https://api.forta.network/graphql", description="The Forta API endpoint"),
-    forta_api_key: str = Query("f4322c61a16efe17:9ffee3e5623f75a61d62f5a4a7fa4da7af8e6d4bb1963d91fd2486f9b88c3107", description="API Key for authentication"),
+    forta_api_key: str = Query("your-api-key", description="API Key for authentication"),
 ): 
 
     try:
