@@ -2,3 +2,7 @@ fastapi
 requests
 pandas
 typing
+uvicorn
+openai
+pydantic 
+constants

@@ -25,7 +25,7 @@ end_date = datetime.strptime(END_DATE, "%Y-%m-%d")
 def parse_date(date_str):
     return parse(date_str)
 
-query = """
+query_forta = """
 query Query {
   labels(
     input: {
@@ -60,7 +60,7 @@ query Query {
 """
 
 #send the request
-response = requests.post(forta_api, json={"query": query}, headers=headers)
+response = requests.post(forta_api, json={"query": query_forta}, headers=headers)
 
 if response.status_code == 200:
     data = response.json()
