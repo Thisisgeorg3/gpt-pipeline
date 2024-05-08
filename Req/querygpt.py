@@ -3,7 +3,7 @@ from pydantic import BaseModel
 from openai import OpenAI
 import pandas as pd
 
-client = OpenAI(api_key='sk-proj-fPxGkXrQXkPpaQKkKXfYT3BlbkFJst0bEoowVy84TWIUwWjw')
+client = OpenAI(api_key='sk-"YOUR_API_KEY')
 
 app = FastAPI()
 
