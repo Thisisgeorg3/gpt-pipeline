@@ -7,7 +7,7 @@ from dateutil.parser import parse
 
 
 forta_api = "https://api.forta.network/graphql"
-forta_api_key = "f4322c61a16efe17:9ffee3e5623f75a61d62f5a4a7fa4da7af8e6d4bb1963d91fd2486f9b88c3107"
+forta_api_key = "YOUR_API_KEY"
 headers = {
     "Content-Type": "application/json",
     "Authorization": f"Bearer {forta_api_key}",  
